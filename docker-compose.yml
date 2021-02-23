@@ -1,0 +1,20 @@
+version: '3.2'
+
+services:
+  syslog:
+    build:
+      context: rsyslog/
+    ports:
+      - 514:514/tcp
+      - 514:514/udp
+    volumes:
+      - ./logs:/var/log
+      - ./rsyslog/rsyslog.d:/etc/rsyslog.d
+      - ./rsyslog/conf/rsyslog.conf:/etc/rsyslog.conf
+      - /Users/artemme/app/kafka_2.13-2.7.0:/etc/kafka
+    networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge

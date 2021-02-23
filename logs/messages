@@ -1,0 +1,3 @@
+2021-02-23T18:22:44.744536+00:00 c0dcee95ffd0 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.1901.0 try https://www.rsyslog.com/e/2442 ]
+2021-02-23T18:22:44.744552+00:00 c0dcee95ffd0 rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+2021-02-23T18:22:44.755261+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -195: Local: Broker transport failure [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
