@@ -15,6 +15,34 @@ services:
     networks:
       - elk
 
+  zookeeper:
+    image: wurstmeister/zookeeper:latest
+    ports:
+      - "2181:2181"
+    container_name: zookeeper
+    networks:
+      - elk
+
+  kafka:
+    image: wurstmeister/kafka:0.11.0.1
+    ports:
+      - "9092:9092"
+    environment:
+      # The below only works for a macOS environment if you installed Docker for
+      # Mac. If your Docker engine is using another platform/OS, please refer to
+      # the relevant documentation with regards to finding the Host IP address
+      # for your platform.
+      KAFKA_ADVERTISED_HOST_NAME: docker.for.mac.localhost
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_CREATE_TOPICS: "logstash_logs:1:1"
+    links:
+      - zookeeper
+    depends_on:
+      - zookeeper
+    container_name: kafka
+    networks:
+      - elk
+
 networks:
   elk:
     driver: bridge

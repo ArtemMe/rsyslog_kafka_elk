@@ -1,3 +1,17 @@
 2021-02-23T18:22:44.744536+00:00 c0dcee95ffd0 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.1901.0 try https://www.rsyslog.com/e/2442 ]
 2021-02-23T18:22:44.744552+00:00 c0dcee95ffd0 rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1" x-info="https://www.rsyslog.com"] start
 2021-02-23T18:22:44.755261+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -195: Local: Broker transport failure [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:39:11.569861+00:00 c0dcee95ffd0 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.1901.0 try https://www.rsyslog.com/e/2442 ]
+2021-02-27T17:39:11.569923+00:00 c0dcee95ffd0 rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+2021-02-27T17:42:05.805124+00:00 c0dcee95ffd0 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.1901.0 try https://www.rsyslog.com/e/2442 ]
+2021-02-27T17:42:05.805158+00:00 c0dcee95ffd0 rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+2021-02-27T17:42:05.814525+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -195: Local: Broker transport failure [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:42:05.814891+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -187: Local: All broker connections are down [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:42:05.815226+00:00 c0dcee95ffd0 rsyslogd: action 'action-1-omkafka' suspended (module 'omkafka'), retry 0. There should be messages before this one giving the reason for suspension. [v8.1901.0 try https://www.rsyslog.com/e/2007 ]
+2021-02-27T17:43:38.814104+00:00 c0dcee95ffd0 rsyslogd: action 'action-1-omkafka' resumed (module 'omkafka') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
+2021-02-27T17:43:38.814238+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -195: Local: Broker transport failure [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:43:38.814249+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -187: Local: All broker connections are down [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:43:38.814635+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -195: Local: Broker transport failure [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:43:38.814646+00:00 c0dcee95ffd0 rsyslogd: omkafka: action will suspended due to kafka error -187: Local: All broker connections are down [v8.1901.0 try https://www.rsyslog.com/e/2422 ]
+2021-02-27T17:43:38.816994+00:00 c0dcee95ffd0 rsyslogd: action 'action-1-omkafka' suspended (module 'omkafka'), retry 0. There should be messages before this one giving the reason for suspension. [v8.1901.0 try https://www.rsyslog.com/e/2007 ]
+2021-02-27T17:43:38.828970+00:00 c0dcee95ffd0 rsyslogd: action 'action-1-omkafka' resumed (module 'omkafka') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
