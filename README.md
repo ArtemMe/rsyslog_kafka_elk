@@ -11,3 +11,6 @@
 ```
 docker run --rm --network=rsyslog_kafka_elk_elk -v /Users/artemme/app/kafka_2.13-2.7.0:/kafka wurstmeister/kafka:0.11.0.1 bash -c "/kafka/bin/kafka-console-consumer.sh --topic test_topic_1 --from-beginning --bootstrap-server 172.23.0.4:9092"
 ```
+
+# Additional
+.env - в этом файле описываются переменные среды для запуска docker-compose
