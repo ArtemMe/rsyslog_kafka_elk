@@ -274,5 +274,5 @@ elasticsearch.password: changeme
 To enter the Kibana UI, you need to log in to the browser `localhost: 5601` (login/password is elasctic/changeme)
 In the left menu, find Discover, click on it and create an index. I suggest this `logstash- *`
 
-<add image>
+<img width="1253" alt="Create index pattern" src="https://user-images.githubusercontent.com/12798761/113514744-191f5f80-9579-11eb-8fb1-3fc9d22236b2.png">
 
