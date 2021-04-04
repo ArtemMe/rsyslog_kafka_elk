@@ -1,6 +1,5 @@
 FROM debian:stable
 
-
 RUN ( \
     export DEBIAN_FRONTEND=noninteractive; \
     export BUILD_DEPS=""; \
